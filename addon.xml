@@ -8,13 +8,15 @@
     <import addon="xbmc.gui" version="5.17.0"/>
     <import addon="script.favourites" version="7.1.1"/>
 	  <import addon="service.library.data.provider" version="0.3.2"/>
-	<import addon="script.randomandlastitems" />
-	<import addon="service.skin.widgets" />
+	  <import addon="script.randomandlastitems" />
+	  <import addon="service.skin.widgets" />
   </requires>
   <extension
     point="xbmc.gui.skin"
     debugging="false"
-    effectslowdown="1.00">
+    effectslowdown="1.00"
+    name="AetherView Elementum"
+    location="skin.aetherview_elementum">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
   </extension>
   <extension point="xbmc.addon.metadata">
