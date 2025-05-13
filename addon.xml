@@ -6,12 +6,16 @@
   provider-name="OnlineVideoCoder">
   <requires>
     <import addon="xbmc.gui" version="5.17.0"/>
+    <import addon="script.favourites" version="7.1.1"/>
+	  <import addon="service.library.data.provider" version="0.3.2"/>
+	<import addon="script.randomandlastitems" />
+	<import addon="service.skin.widgets" />
   </requires>
   <extension
     point="xbmc.gui.skin"
     debugging="false"
-    effectslowdown="0.75">
-    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    effectslowdown="1.00">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">AetherView Elementum skin for Kodi</summary>
